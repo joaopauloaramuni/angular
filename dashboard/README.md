@@ -82,4 +82,4 @@ Acesse o aplicativo em http://localhost:4200/.
 
 ## Pré-visualização do Projeto
 
-<img src="https://github.com/joaopauloaramuni/angular/blob/main/img/angular.png?raw=true"/>
+<img src="https://github.com/joaopauloaramuni/angular/blob/main/dashboard/img/angular.png?raw=true"/>
