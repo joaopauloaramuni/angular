@@ -1,4 +1,4 @@
-# Relatório de Vendas
+# Projeto Sales Report
 
 Este projeto foi desenvolvido com o Angular CLI versão 16.2.2.
 
@@ -82,4 +82,4 @@ Acesse o aplicativo em http://localhost:4200/.
 
 ## Pré-visualização do Projeto
 
-<img src="https://github.com/joaopauloaramuni/angular/blob/main/dashboard/img/angular.png?raw=true"/>
+<img src="https://github.com/joaopauloaramuni/angular/blob/main/dashboard/img/salesreport.png?raw=true"/>
