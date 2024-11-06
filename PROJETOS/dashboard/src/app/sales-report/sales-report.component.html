@@ -1,0 +1,44 @@
+<div class="dashboard">
+    <table class="˜˜tabletitle">
+        <tr>
+            <td class="user">
+            </td> 
+            <td class="username">
+              User Name  
+            </td>
+           <td>
+            Sales Report
+           </td> 
+        </tr>
+    </table>
+</div>
+  
+<div class="info">
+    <div class="item">
+        <b>Category: </b>
+        <select [(ngModel)]="selectedCategory" (change)="onCategoryChange()">
+        <option *ngFor="let category of categories" [value]="category">{{ category }}</option>
+        </select>
+    </div>
+    <div class="item">
+        <b>Product: </b>
+        <select [(ngModel)]="selectedProduct">
+        <option *ngFor="let product of products[selectedCategory]" [value]="product">{{ product }}</option>
+        </select>
+    </div>
+    <div class="item">
+        <b>Brand: </b>
+        <select [(ngModel)]="selectedBrand" (change)="onBrandChange()">
+        <option *ngFor="let brand of brands[selectedCategory]" [value]="brand">{{ brand }}</option>
+        </select>
+    </div>
+</div>
+
+<div class="sales-by-month">
+<p>Sales By Month for: <strong>{{ selectedCategory }} {{ selectedProduct }} {{ selectedBrand }}</strong></p>
+</div>
+
+<div class="chart-container">
+<canvas #salesChartCanvas id="salesChart"></canvas>
+</div>
+  
